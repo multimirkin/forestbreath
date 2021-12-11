@@ -1,2 +1,2 @@
 # melody - Training project 
-## Еhe project was made by Max Ьштпгдщм
+## The project was made by Max Ьштпгдщм

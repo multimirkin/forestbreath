@@ -3,6 +3,9 @@ $(document).ready(function () {
   var floorPath = $(".home-image path"); // Every single floor in SVG
   var counterUp = $(".counter-up"); /* Floor up button */
   var counterDown = $(".counter-down"); /* Floor down button */
+  var modal = $(".modal");
+  var modalCloseButton = $(".modal-close-button");
+  var viewAptsButton = $(".view-apts"); // view apartments button
 
   // Mouseover funtion for the floor
   floorPath.on("mouseover", function () {
@@ -10,6 +13,10 @@ $(document).ready(function () {
     currentFloor = $(this).attr("data-floor"); // Getting current value of the floor
     $(".counter").text(currentFloor); // Writing down the value of the floor to the counter on a right
   });
+
+  floorPath.on("click", toggleModal); //on click on the floor, calls window
+  modalCloseButton.on("click", toggleModal); // on click, close window
+  viewAptsButton.on("click", toggleModal); // on click opens modal window
 
   // Tracking down the click on a up button
   counterUp.on("click", function () {
@@ -40,4 +47,7 @@ $(document).ready(function () {
       $(`[data-floor=${usCurrentFloor}]`).toggleClass("current-floor"); // Highlighting current floor
     }
   });
+  function toggleModal() {
+    modal.toggleClass("is-open"); // close-open function
+  }
 });

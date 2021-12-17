@@ -41,6 +41,13 @@ body {
   margin-left: 40px;
   margin-right: 40px;
 }
+.logo {
+  text-decoration: none;
+  color: #fff;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 25px;
+  margin: 0;
+}
 .navbar-link {
   text-decoration: none;
   color: #fff;
@@ -104,14 +111,14 @@ path.current-floor {
 }
 .main-title {
   margin: 0;
-  font-family: "Bebas Neue Regular", sans-serif;
+  font-family: "Bebas Neue", sans-serif;
   font-weight: normal;
   font-size: 37px;
   line-height: 37px;
   color: #635854;
 }
 .floor-counter {
-  font-family: "Bebas Neue Regular", sans-serif;
+  font-family: "Bebas Neue", sans-serif;
   font-weight: normal;
   color: #635854;
   font-size: 124px;

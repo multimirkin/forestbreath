@@ -227,3 +227,72 @@ path.current-floor {
   border: none;
   background-color: #fff;
 }
+
+/* 4. FOOTER */
+
+.footer {
+  background-color: #d7d7d7;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  margin-top: 99px;
+}
+.footerbar {
+  max-width: 1280px;
+  height: 171px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer-contacts {
+  min-width: 427px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer-social {
+  margin: 0;
+  list-style: none;
+  display: flex;
+  text-align: center;
+}
+.footer-menu {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  text-align: center;
+  text-decoration: none;
+}
+.socialmedia-item {
+  margin-right: 15px;
+}
+.footerbar-contacts {
+  margin-right: 59px;
+  text-decoration: none;
+}
+.footerlogo {
+  margin-right: 37px;
+}
+.footer-link {
+  padding: 0 10px;
+  color: #635854;
+}
+.footerbar-text {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  color: #635854;
+  margin-bottom: 5px;
+}
+.footerbar-phone {
+  text-decoration: none;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 20px;
+  color: #635854;
+}
